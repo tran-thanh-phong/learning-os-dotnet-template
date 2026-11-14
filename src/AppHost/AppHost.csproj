@@ -1,10 +1,12 @@
-<Project Sdk="Aspire.AppHost.Sdk/13.6.4">
+<Project Sdk="Aspire.AppHost.Sdk/13.6.5">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <RootNamespace>CleanArchitecture.AppHost</RootNamespace>
     <AssemblyName>CleanArchitecture.AppHost</AssemblyName>
-    <AspireUseCliBundle>true</AspireUseCliBundle>
+    <!-- false: restore the dashboard/DCP from nuget.org instead of letting the build run `dnx aspire.cli setup`. -->
+    <AspireUseCliBundle>false</AspireUseCliBundle>
+    <NoWarn>$(NoWarn);ASPIRE010</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
