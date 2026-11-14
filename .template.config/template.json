@@ -201,6 +201,14 @@
       },
       "replaces": "22000"
     },
+    "userSecretsId": {
+      "type": "generated",
+      "generator": "guid",
+      "replaces": "5d1c3e0a-7b4f-4c8e-9a52-0f6e2d8b3c71",
+      "parameters": {
+        "defaultFormat": "d"
+      }
+    },
     "caPackageVersion": {
       "type": "generated",
       "generator": "constant",

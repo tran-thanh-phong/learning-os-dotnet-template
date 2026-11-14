@@ -3,6 +3,7 @@
   <PropertyGroup>
     <RootNamespace>CleanArchitecture.Web</RootNamespace>
     <AssemblyName>CleanArchitecture.Web</AssemblyName>
+    <UserSecretsId>5d1c3e0a-7b4f-4c8e-9a52-0f6e2d8b3c71</UserSecretsId>
     <!--#if (!UseApiOnly)-->
     <SpaRoot>ClientApp\</SpaRoot>
     <OpenApiDocumentsDirectory>./wwwroot/openapi/</OpenApiDocumentsDirectory>
